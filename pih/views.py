@@ -8,5 +8,16 @@ def home(request):
 
 def aboutus(request):
 	context = {}
-	template = "aboutus.html"
+	template = "about-us.html"
 	return render(request, template, context)	
+
+def contactus(request):
+	context = {}
+	template = "contact-us.html"
+	return render(request, template, context)
+
+def blog(request):
+	context = {}
+	template = "blog.html"
+	return render(request, template, context)	
+
