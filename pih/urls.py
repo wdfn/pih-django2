@@ -8,8 +8,16 @@ urlpatterns = patterns('',
     # url(r'^$', 'pih.views.home', name='home'),
     # url(r'^blog/', include('blog.urls')),
 
-    url(r'^$', 'pih.views.home', name='home'),
+    url(r'^$', 'pih.views.home', name='home'),  
+    
 
+    url(r'^ourwork\.html/$', 'pih.views.ourwork', name='ourwork'),
+    url(r'^mission\.html/$', 'pih.views.mission', name='mission'),
+    url(r'^founders\.html/$', 'pih.views.founders', name='founders'),
+    url(r'^governance\.html/$', 'pih.views.governance', name='governance'),
+    url(r'^events\.html/$', 'pih.views.events', name='events'),
+    url(r'^donate\.html/$', 'pih.views.donate', name='donate'),
+    url(r'^history\.html/$', 'pih.views.history', name='history'),
     url(r'^about-us\.html/$', 'pih.views.aboutus', name='aboutus'),
 	url(r'^blog\.html/$', 'pih.views.blog', name='blog'),
 	url(r'^contact-us\.html/$', 'pih.views.contactus', name='contactus'),
