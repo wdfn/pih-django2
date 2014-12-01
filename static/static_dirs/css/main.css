@@ -134,6 +134,22 @@ body > section {
   font-weight: 400;
 }
 
+.subtitle{
+  text-align: center;
+  font-size: 25px;
+  padding-bottom: 10px;
+  line-height: 40px;
+  font-weight: 300;
+}
+
+.content{
+  text-align: center;
+  font-size: 14px;
+  padding-top: 30px;
+  line-height: 24px;
+  font-weight: 400;
+}
+
 .transparent-bg {
   background-color: transparent !important;
   margin-bottom: 0;
@@ -1071,6 +1087,15 @@ a.accordion-toggle  i{
 #carousel-slider
 .carousel-control.right {
   background: none;
+}
+
+#carousel-slider .carousel-inner > .item > img {
+    margin: 0 auto;
+}
+
+#img-goals {
+  padding-left: 50px;
+  padding-right: 50px;
 }
 
 .skill_text {
