@@ -55,5 +55,10 @@ def events(request):
 def donate(request):
 	context = {}
 	template = "donate.html"
-	return render(request, template, context)			
+	return render(request, template, context)		
+
+def sendemail(request):
+	context = {}
+	template = "sendemail.php"
+	return render(request, template, context)		
 

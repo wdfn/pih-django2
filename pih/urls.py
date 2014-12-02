@@ -21,6 +21,7 @@ urlpatterns = patterns('',
     url(r'^about-us\.html/$', 'pih.views.aboutus', name='aboutus'),
 	url(r'^blog\.html/$', 'pih.views.blog', name='blog'),
 	url(r'^contact-us\.html/$', 'pih.views.contactus', name='contactus'),
+    url(r'^sendemail\.php/$', 'pih.views.sendemail', name='sendemail'),
 
 #admin system
     url(r'^admin/', include(admin.site.urls)),
