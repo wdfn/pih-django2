@@ -85,11 +85,106 @@
         </nav><!--/nav-->
     </header><!--/header-->
 
-    <section id="about-us">
-        <div class="center wow fadeInDown">
-            <h2>Our Work</h2>
-        </div>
-    </section>
+    <section id="feature" class="transparent-bg">
+        <div class="container">
+           <div class="center wow fadeInDown">
+                <h2>Our Work</h2>
+                <p class="lead">Every day, Partners in Health is addressing health issues around the world.</p>
+            </div>
+
+            <div class="row">
+                <div class="features">
+                    <div class="col-md-4 col-sm-6 wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="600ms">
+                        <div class="feature-wrap">
+                            <div id="img-work">
+                                <img class="img-responsive" src="{% static 'img/ourwork/haiti.png' %}" alt="">
+                            </div>
+                            <h2>Haiti</h2>
+                            <h3>PIH/Haiti operates clinics and hospitals—including national teaching hospital—at 12 sites across the Central Plateau and beyond</h3>
+                        </div>
+                    </div><!--/.col-md-4-->
+
+                    <div class="col-md-4 col-sm-6 wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="600ms">
+                        <div class="feature-wrap">
+                            <div id="img-work">
+                                <img class="img-responsive" src="{% static 'img/ourwork/rwanda.png' %}" alt="">
+                            </div>
+                            <h2>Rwanda</h2>
+                            <h3>PIH helps strengthen Rwanda's public health system in three districts, serving 800,000 people through these hospitals and 41 health centers.</h3>
+                        </div>
+                    </div><!--/.col-md-4-->
+
+                     <div class="col-md-4 col-sm-6 wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="600ms">
+                        <div class="feature-wrap">
+                            <div id="img-work">
+                                <img class="img-responsive" src="{% static 'img/ourwork/lesotho.png' %}" alt="">
+                            </div>
+                            <h2>Lesotho</h2>
+                            <h3>PIH/Lesotho brings high-quality health care to nearly 200,000 people through a network of rural health facilities.</h3>
+                        </div>
+                    </div><!--/.col-md-4-->
+                </div><!--/.services-->
+            </div><!--/.row-->
+
+            <div class="row">
+                <div class="features">
+                    <div class="col-md-4 col-sm-6 wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="600ms">
+                        <div class="feature-wrap">
+                            <div id="img-work">
+                                <img class="img-responsive" src="{% static 'img/ourwork/malawi.png' %}" alt="">
+                            </div>
+                            <h2>Malawi</h2>
+                            <h3>PIH/Malawi works with the Ministry of Health to provide comprehensive care in the rural Neno district.</h3>
+                        </div>
+                    </div><!--/.col-md-4-->
+
+                    <div class="col-md-4 col-sm-6 wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="600ms">
+                        <div class="feature-wrap">
+                            <div id="img-work">
+                                <img class="img-responsive" src="{% static 'img/ourwork/mexico.png' %}" alt="">
+                            </div>
+                            <h2>Mexico</h2>
+                            <h3>Companeros En Salud is improving primary health care in Chiapas, one of the poorest regions of Mexico.</h3>
+                        </div>
+                    </div><!--/.col-md-4-->
+
+                    <div class="col-md-4 col-sm-6 wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="600ms">
+                        <div class="feature-wrap">
+                            <div id="img-work">
+                                <img class="img-responsive" src="{% static 'img/ourwork/russia.png' %}" alt="">
+                            </div>
+                            <h2>Russia</h2>
+                            <h3>We work with Russia's Ministry of Health to combat one of the world's worst epidemics of multidrug-resistant tuberculosis.</h3>
+                        </div>
+                    </div><!--/.col-md-4-->
+                </div><!--/.services-->
+            </div><!--/.row-->
+
+            <div class="row">
+                <div class="features">
+                    <div class="col-md-4 col-sm-6 wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="600ms">
+                        <div class="feature-wrap">
+                            <div id="img-work">
+                                <img class="img-responsive" src="{% static 'img/ourwork/peru.png' %}" alt="">
+                            </div>
+                            <h2>Peru</h2>
+                            <h3>Socios En Salud has achieved remarkable success in confronting multidrug-resistant tuberculosis in the slums of Lima.</h3>
+                        </div>
+                    </div><!--/.col-md-4-->
+
+                    <div class="col-md-4 col-sm-6 wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="600ms">
+                        <div class="feature-wrap">
+                            <div id="img-work">
+                                <img class="img-responsive" src="{% static 'img/ourwork/navajo.png' %}" alt="">
+                            </div>
+                            <h2>Navajo Nation</h2>
+                            <h3>PIH partners with the COPE Project to serve Native Americans struggling with some of the worst health outcomes in the United States.</h3>
+                        </div>
+                    </div><!--/.col-md-4-->
+                </div><!--/.services-->
+            </div><!--/.row-->
+        </div><!--/.container-->
+    </section><!--/#feature-->
 
     <footer id="footer" class="midnight-blue">
         <div class="container">
@@ -108,6 +203,24 @@
             </div>
         </div>
     </footer><!--/#footer-->
+
+<!--<script src="http://code.jquery.com/jquery-1.11.0.min.js"></script> -->
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js" ></script>
+<script src="http://netdna.bootstrapcdn.com/twitter-bootstrap/2.3.1/js/bootstrap.min.js"></script>
+
+<!--    <script src="js/bootstrap.min.js"></script> -->
+<!--    <script src="js/jquery.prettyPhoto.js"></script>    -->
+<!--    <script src="js/jquery.isotope.min.js"></script>    -->
+<!--    <script src="js/main.js"></script>  -->
+<!--    <script src="js/wow.min.js"></script>   -->
+
+<script type="text/javascript" src="{% static 'js/jquery.js' %}"></script>
+<script type="text/javascript" src="{% static 'js/bootstrap.min.js' %}"></script>
+<script type="text/javascript" src="{% static 'js/jquery.isotope.min.js' %}"></script>
+<script type="text/javascript" src="{% static 'js/main.js' %}"></script>
+<script type="text/javascript" src="{% static 'js/wow.min.js' %}"></script>
+<!-- <script type="text/javascript"  fmainsrc="{% static 'js/jquery.js' %}"></script> -->
+
 
 </body>
 </html>

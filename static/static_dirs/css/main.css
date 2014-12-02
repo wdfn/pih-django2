@@ -1445,6 +1445,7 @@ ul.social_icons li  a i{
 
 /***********************
 ****Service page css****
+****ie Our Story********
 ***********************/
 
 .services {
@@ -1570,7 +1571,12 @@ ul.social_icons li  a i{
 
 /*************************
 ********* Portfolio CSS ******
+********* ie Our Work *********
 **************************/
+
+#img-work {
+  padding-right: 100px;
+}
 
 #portfolio_page {
   margin-top: 115px;
