@@ -549,6 +549,11 @@ input.search-form:hover {
   animation: fadeInUp 300ms linear 1200ms both;
 }
 
+#main-slider .img-animation{
+  height: 300px;
+  width: 300px;
+}
+
 #feature {
   background: #f2f2f2;
   padding-bottom: 40px;
