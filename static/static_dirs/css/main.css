@@ -1987,6 +1987,12 @@ textarea#message{
   margin-top: 20px;
 }
 
+#img-event {
+  height: 200px;
+  width: 1000px;
+}
+
+
 /*********************
 ****blog page css*****
 **********************/
